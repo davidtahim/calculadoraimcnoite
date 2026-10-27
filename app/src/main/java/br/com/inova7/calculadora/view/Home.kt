@@ -40,7 +40,7 @@ fun Home(){
             )
 
         }
-    ) { innerPadding ->
+    ) {paddingValues ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
@@ -55,8 +55,18 @@ fun Home(){
                 Text(
                     text = "Altura em cm",
                     fontSize=18.sp,
-                    fontWeight= FontWeight()
+                    fontWeight= FontWeight.Bold,
+                    modifier = Modifier.padding(20.dp,100.dp,0.dp,0.dp)
                 )
+
+                Text(
+                    text = "Peso em kg",
+                    fontSize=18.sp,
+                    fontWeight= FontWeight.Bold,
+                    modifier = Modifier.padding(20.dp,100.dp,0.dp,0.dp)
+                )
+
+
 
             }
 
