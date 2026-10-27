@@ -16,6 +16,7 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.motionEventSpy
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import br.com.inova7.calculadora.ui.theme.Blue
 import br.com.inova7.calculadora.ui.theme.Purple40
@@ -44,7 +45,7 @@ fun Home(){
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding()
+                .padding(paddingValues)
                 .background(color = White)
         ) {
             Row(
